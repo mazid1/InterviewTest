@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custom_attribute">
+        <attr name="text_with_image" format="string"></attr>
+        <attr name="drawing_color" format="color"></attr>
+    </declare-styleable>
+</resources>

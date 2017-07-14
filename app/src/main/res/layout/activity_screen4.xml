@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hellomazid.interviewtest.Screen4Activity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <com.hellomazid.interviewtest.TextViewWithImage
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        custom:text_with_image="@string/text_with_image"
+        android:layout_weight="0.26" />
+
+
+    <com.hellomazid.interviewtest.DrawingView
+        android:id="@+id/drawing_view"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:background="@color/colorWhite"
+        android:layout_weight="0.39" />
+
+    <Button
+        android:text="@string/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submit"/>
+
+</LinearLayout>

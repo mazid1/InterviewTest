@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InterviewTest</string>
+
+    <!-- activity_main -->
+    <string name="button_parse_json">Parse JSON</string>
+    <string name="button_parse_xml">Parse XML</string>
+    <string name="button_parse_html">Parse HTML</string>
+    <string name="button_go_to_screen_4">Go to screen 4</string>
+
+    <!-- activity_screen4 -->
+    <string name="text_with_image">This is a text view which is showing an imageThis is
+        a text view which is showing an imageThis is a text view which is
+        showing an imageThis is a text view which is showing an image</string>
+    <string name="submit">SUBMIT</string>
+
+</resources>
